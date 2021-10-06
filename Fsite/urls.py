@@ -25,4 +25,6 @@ urlpatterns = [
     path('services/',include('services.urls')),
     path('team/',include('team.urls')),
     path('gallery/',include('gallery.urls')),
+    path('price/',include('price.urls')),
+    path('newsPriv/',include('newsPriv.urls')),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

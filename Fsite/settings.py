@@ -31,8 +31,8 @@ ALLOWED_HOSTS = []
 # Application definition
 ''' 
     
-    'price',
-    'news_priv',
+    
+    
     'contact',
 '''
 
@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     'services',
     'team',
     'gallery',
+    'price',
+    'newsPriv',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
